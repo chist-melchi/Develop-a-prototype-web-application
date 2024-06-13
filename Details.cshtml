@@ -1,0 +1,8 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "Article Details";
+}
+
+<h2>@Model.Title</h2>
+<p>@Model.Content</p>
+<p><strong>Published on:</strong> @Model.PublishedDate.ToString("MM/dd/yyyy")</p>
